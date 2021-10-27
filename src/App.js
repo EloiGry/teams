@@ -33,7 +33,7 @@ class App extends React.Component {
         <Counter count={this.state.count} increment={this.handlePlusClick} substract={this.handleMoinsClick}/>
         <div className="row justify-content-around">
           {teams.slice(0, this.state.count).map(team =>  
-           <TeamInfos shortName={team.shortName} image={team.crestUrl} stade={team.venue} address={team.address} email={team.email} tel={team.phone} founded={team.founded}/>
+           <TeamInfos team={team} />
           )}
         </div>
       </div>

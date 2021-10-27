@@ -2,16 +2,18 @@ import React from "react"
 
 class TeamInfos extends React.Component {
     render() {
+
+      const {crestUrl, shortName, venue, address, email, phone, founded} = this.props.team
       return (
           <>
             <div className="col-4 border"> 
-                <img className="w-25"src={this.props.image} alt="logo"/>
-                <p> {this.props.shortName} </p>
-                <p> Stadium :{this.props.stade}</p>
-                <p> Address :{this.props.address}</p>
-                <p> Email : {this.props.email}</p>
-                <p> Phone : {this.props.tel}</p>
-                <p>Creation : {this.props.founded}</p>
+                <img className="w-25"src={crestUrl} alt="logo"/>
+                <p> {shortName} </p>
+                <p> Stadium :{venue}</p>
+                <p> Address :{address}</p>
+                <p> Email : {email}</p>
+                <p> Phone : {phone}</p>
+                <p>Creation : {founded}</p>
 
             </div>
           </>
