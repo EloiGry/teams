@@ -21,15 +21,3 @@ class TeamInfos extends React.Component {
   
   export default TeamInfos
 
-//   "name": "Burton Albion FC",
-//         "shortName": "Burton Albion",
-//         "tla": null,
-//         "crestUrl": "https://crests.football-data.org/1072.svg",
-//         "address": "Princess Way Burton-on-Trent DE13 0AR",
-//         "phone": "+44 (0128) 3565938",
-//         "website": "http://www.burtonalbionfc.co.uk",
-//         "email": "office@burtonalbionfc.co.uk",
-//         "founded": 1950,
-//         "clubColors": "Yellow / Black",
-//         "venue": "Pirelli Stadium",
-//         "lastUpdated": "2021-04-13T11:25:43Z"
